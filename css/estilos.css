@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'monaco', sans-serif;
+	height: 100%;
+}
+.header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 10px;
+	background-color: #e84153;
+}
+
+.header .logo{
+	margin-top: 10px;
+}
+.header .logo img{
+	width: 30px;
+	border-radius: 50%;
+}
+.header:hover{
+	background-color: #D1AA21;
+	color: #e84153;
+}
+.header  li{
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 10px;
+	justify-content: center;
+}
+.header .nav a{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+
+.uno:hover{
+	transform: scale(1.1);
+	transition: all 100ms ease-in-out;
+}
+.padre{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	height: 315px;
+}
+.imagen1{
+	background-color: #ffd02b;
+	height: 100%;
+	font-family: 'monaco';
+}
+.imagen1 p{
+	font-size: 40px;
+	margin: 50px;
+	padding: 50px;
+}
+.imagen2 img{
+	width: 100%;
+	margin: 0;
+}
+
+.imagen3{
+	background-color: #ffd02b;
+	height: 100%;
+	font-family: 'monaco';
+	font-size: 20px;
+}
+.imagen3 p{
+	margin: 40px;
+	padding: 40px;
+	border: 5px solid;
+    border-color: #e84153;
+}
+.imagen4{
+	background-color: #ffd02b;
+	height: 100%;
+	font-family: 'monaco';
+	font-size: 20px;
+}
+.imagen4 li{
+	margin: 40px;
+	padding: 40px;
+	border: 5px solid;
+    border-color: #e84153;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	font-size: 10px;
+	background-color: #e84153;
+}
+@media only screen and (min-width: 600px) {
+	.header{
+		font-size: 20px;
+	}
+.padre{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	height: 468px;
+}
+.imagen1{
+	background-color: #ffd02b;
+	height: 100%;
+	font-family: 'monaco';
+	font-size: 80%;
+}
+.imagen1 p{
+	font-size: 80px;
+	margin: 100px;
+	padding: 100px;
+}
+.imagen2 img{
+	width: 100%;
+	margin: 0;
+	height: 100%;
+}
+.imagen3 p{
+	margin: 80px;
+	padding: 80px;
+	border: 10px solid;
+    border-color: #e84153;
+}
+.imagen3 p:hover{
+	transform: scale(1.1);
+	transition: all 100ms ease-in-out;
+}
+.imagen4 li{
+	margin: 40px;
+	padding: 40px;
+	border: 10px solid;
+    border-color: #e84153;
+    background-color: #ffd02b;
+}
+.imagen4 li:hover{
+	transform: scale(1.1);
+	transition: all 100ms ease-in-out;
+}
+
+.footer{
+	display: grid;
+	grid-column: 1 / 3;
+	justify-content: center;
+	font-size: 10px;
+	background-color: #e84153;
+	
+}
+}
