@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+	font-family: 'Secular One', sans-serif;
+}
+.navbar img{
+	width: 40px;
+	border-radius: 50%;
+}
+nav{
+	background-color: #FFD02B;
+
+}
+nav a{
+	text-decoration: none;
+}
+nav:hover{
+	background-color: #e84153;
+}
+.row .col{
+	background-color: #FFD02B;
+}
+.col img{
+	width: 100%;
+}
+.row .col-sm{
+	background-color: #FFD02B;
+}
+.col-sm img{
+	width: 100%;
+}
+div a img{
+	width: 15px;
+}
+.footer{
+	background-color: #e84153;
+	color: #FFD02B;
+}
+a{
+	text-decoration-line: none;
+}
+div .carrousel-item{
+	display: block;
+	width: 100%;
+}
+div .skills{
+	width: 75%;
+	max-width: auto;
+	text-align: center;
+	margin: 25%;
+	color: #E84153;
+}
+.skills input{
+	background-color: #E84153;
+	color: #FFD02B;
+}
+div .col{
+	justify-content: center;
+	background-color: #FFD02B;
+}
+.form-label{
+	color: #E84153;
+}
