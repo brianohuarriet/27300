@@ -1,0 +1,4 @@
+@mixin pruebaMixin ($width1, $borderRadius){
+    width: $width1;
+    border-radius: $borderRadius;
+}

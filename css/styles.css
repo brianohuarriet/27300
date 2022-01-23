@@ -37,6 +37,85 @@ nav:hover {
 }
 
 .row div a img {
+  width: 15%;
+}
+
+.footer {
+  background-color: #e84153;
+  color: #FFD02B;
+}
+
+.footer a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills .col-6:hover {
+  background-color: #e84153;
+  color: #FFD02B;
+  border-radius: 5px;
+}
+
+.centro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.centro p {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #e84153;
+  border: solid 5px;
+  border-color: red;
+}
+
+body {
+  font-family: 'Secular One', sans-serif;
+}
+
+.navbar img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #FFD02B;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav:hover {
+  background-color: #e84153;
+}
+
+.row .col {
+  background-color: #FFD02B;
+}
+
+.row .col img {
+  width: 100%;
+}
+
+.row .col-sm {
+  background-color: #FFD02B;
+}
+
+.row .col-sm img {
+  width: 100%;
+}
+
+.row div a img {
   width: 15px;
 }
 
@@ -57,7 +136,7 @@ nav:hover {
 .skills .col-6:hover {
   background-color: #e84153;
   color: #FFD02B;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 .centro {
@@ -74,5 +153,7 @@ nav:hover {
       -ms-flex-pack: center;
           justify-content: center;
   color: #e84153;
+  border: solid 5px;
+  border-color: red;
 }
 /*# sourceMappingURL=styles.css.map */

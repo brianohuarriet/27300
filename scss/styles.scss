@@ -1,0 +1,71 @@
+@import "fuentes";
+@import "variables";
+@import "tools";
+@import "main";
+body{
+	font-family: 'Secular One', sans-serif;
+}
+.navbar {
+    img {
+		@include pruebaMixin (40px, 50%);
+    }
+}
+nav {
+	background-color: $bgColor;
+	a {
+		text-decoration: none;
+	}
+	&:hover {
+		background-color: $textColor;
+	}
+}
+.row {
+	.col {
+		background-color: $bgColor;
+		img {
+			width: $width;
+		}
+	
+	}
+	.col-sm {
+		background-color: $bgColor;
+		img {
+			width: $width;
+		}
+	}
+	div a img {
+		width: 15px;
+	}
+
+}
+.footer {
+	background-color: $textColor;
+	color: $bgColor;
+	a {
+		text-decoration-line: none;
+	}
+}
+
+.skills{
+	text-align: center;
+	.col-6{
+		&:hover{
+			background-color: $textColor;
+			color: $bgColor;
+			border-radius: map-get($pruebaMap, normal);
+		}
+	}
+}
+
+.centro{
+	display: flex;
+	p{
+		width: 300px;
+		text-align: center;
+		margin: auto;
+		justify-content: center;
+		color: $textColor;
+		border: solid 5px;
+		border-color: red;
+	}
+}
