@@ -20,10 +20,21 @@ nav {
 	}
 }
 .row {
+	width: 100%;
+	margin: auto;
 	.col {
 		background-color: $bgColor;
 		img {
 			width: $width;
+		}
+	p{
+		width: 300px;
+		text-align: center;
+		margin: auto;
+		justify-content: center;
+		color: $textColor;
+		border: solid 5px;
+		border-color: red;
 		}
 	
 	}
@@ -41,14 +52,18 @@ nav {
 .footer {
 	background-color: $textColor;
 	color: $bgColor;
+	text-align: center;
 	a {
 		text-decoration-line: none;
+		margin: 13px;
 	}
 }
 
 .skills{
 	text-align: center;
-	.col-6{
+	margin: 10px;
+	.col-md-6{
+		margin: 10px;
 		&:hover{
 			background-color: $textColor;
 			color: $bgColor;
@@ -57,15 +72,3 @@ nav {
 	}
 }
 
-.centro{
-	display: flex;
-	p{
-		width: 300px;
-		text-align: center;
-		margin: auto;
-		justify-content: center;
-		color: $textColor;
-		border: solid 5px;
-		border-color: red;
-	}
-}

@@ -9,6 +9,11 @@ nav {
   nav:hover {
     background-color: #e84153; }
 
+.row{
+  width: 100%;
+  margin: auto;
+}    
+
 .row .col {
   background-color: #FFD02B; }
   .row .col img {
@@ -21,27 +26,28 @@ nav {
 
 .row div a img {
   width: 15px; }
+.row .p {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  color: red; 
+  border: solid 5px;}
 
 .footer {
   background-color: #e84153;
-  color: #FFD02B; }
+  color: #FFD02B; 
+  text-align: center;}
   .footer a {
-    text-decoration-line: none; }
+    text-decoration-line: none;
+    margin: 13px; }
 
 .skills {
-  text-align: center; }
-  .skills .col-6:hover {
+  text-align: center; 
+  margin: 10px;}
+  .skills .col-md-6:hover {
     background-color: red;
     color: #FFD02B;
     border-radius: 5%; }
 
-.centro {
-  display: flex; }
-  .centro p {
-    width: 300px;
-    text-align: center;
-    margin: auto;
-    justify-content: center;
-    color: red; 
-    border: solid 5px;}
-    
+

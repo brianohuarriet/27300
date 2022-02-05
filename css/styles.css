@@ -99,12 +99,29 @@ nav:hover {
   background-color: #e84153;
 }
 
+.row {
+  width: 100%;
+  margin: auto;
+}
+
 .row .col {
   background-color: #FFD02B;
 }
 
 .row .col img {
   width: 100%;
+}
+
+.row .col p {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #e84153;
+  border: solid 5px;
+  border-color: red;
 }
 
 .row .col-sm {
@@ -122,38 +139,27 @@ nav:hover {
 .footer {
   background-color: #e84153;
   color: #FFD02B;
+  text-align: center;
 }
 
 .footer a {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+  margin: 13px;
 }
 
 .skills {
   text-align: center;
+  margin: 10px;
 }
 
-.skills .col-6:hover {
+.skills .col-md-6 {
+  margin: 10px;
+}
+
+.skills .col-md-6:hover {
   background-color: #e84153;
   color: #FFD02B;
   border-radius: 5px;
-}
-
-.centro {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.centro p {
-  width: 300px;
-  text-align: center;
-  margin: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #e84153;
-  border: solid 5px;
-  border-color: red;
 }
 /*# sourceMappingURL=styles.css.map */
